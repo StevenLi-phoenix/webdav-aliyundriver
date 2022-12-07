@@ -2403,3 +2403,868 @@ java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no
 2022-12-07 08:02:51.241  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
 2022-12-07 08:02:52.208  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
 2022-12-07 08:02:53.173  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:02:54.140  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:02:55.128  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:02:56.289  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:02:57.249  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:02:58.215  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:02:59.179  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:00.150  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:01.318  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:02.288  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:03.250  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:04.214  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:05.188  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:06.151  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:07.317  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:07.484  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:03:08.249  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:09.268  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:10.230  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:11.191  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:12.141  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:13.414  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:14.185  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:15.147  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:16.313  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:17.272  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:18.239  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:19.204  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:20.168  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:21.132  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:22.308  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:23.284  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:24.242  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:25.214  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:26.179  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:27.148  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:28.314  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:29.276  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:30.236  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:31.197  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:32.162  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:33.327  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:34.285  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:35.250  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:36.206  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:37.166  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:03:37.167  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:03:37.169  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:03:37.174  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:03:37.175  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:03:37.176  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:03:37.321  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:38.292  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:39.255  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:40.223  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:41.193  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:42.158  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:43.135  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:44.301  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:45.288  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:46.238  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:47.196  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:48.154  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:49.328  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:50.286  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:51.248  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:52.223  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:53.184  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:54.146  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:55.314  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:56.301  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:57.256  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:58.215  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:03:59.167  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:00.189  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:01.145  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:02.309  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:03.278  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:04.250  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:05.220  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:06.187  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:07.252  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:08.208  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:08.384  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:04:09.151  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:10.322  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:11.287  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:12.252  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:13.213  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:14.188  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:15.146  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:16.313  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:17.270  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:18.241  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:19.205  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:20.188  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:21.148  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:22.310  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:23.289  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:24.249  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:25.214  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:26.181  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:27.142  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:28.309  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:29.270  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:30.250  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:31.215  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:32.176  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:33.131  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:34.303  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:35.268  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:36.234  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:37.191  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:04:37.193  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:04:37.194  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:04:37.197  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:04:37.198  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:04:37.199  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:04:37.388  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:38.147  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:39.320  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:40.287  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:41.249  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:42.208  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:43.166  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:44.131  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:45.291  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:46.248  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:47.211  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:48.171  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:49.134  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:50.306  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:51.272  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:52.233  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:53.196  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:54.155  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:55.320  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:56.289  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:57.248  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:58.221  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:04:59.185  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:00.148  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:01.309  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:02.268  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:03.234  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:04.198  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:05.162  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:06.128  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:07.297  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:08.264  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:09.222  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:09.400  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:10.162  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:11.125  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:12.306  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:13.274  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:14.236  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:15.197  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:16.157  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:17.327  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:18.292  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:19.246  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:20.220  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:21.201  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:21.343  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:21.343  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:21.345  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:21.346  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:21.346  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:21.346  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:21.347  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /
+2022-12-07 08:05:21.347  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:21.347  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:21.348  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.DS_Store
+2022-12-07 08:05:21.348  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:21.348  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:21.348  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:21.349  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 4K
+2022-12-07 08:05:21.349  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /冰冻星球 第二季 4K
+2022-12-07 08:05:21.350  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /游戏
+2022-12-07 08:05:21.351  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /游戏
+2022-12-07 08:05:21.351  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /macbook pro 电脑备份
+2022-12-07 08:05:21.351  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /macbook pro 电脑备份
+2022-12-07 08:05:21.352  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:21.352  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:21.353  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /screenshots
+2022-12-07 08:05:21.353  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /screenshots
+2022-12-07 08:05:21.354  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /IMG_1919.livp
+2022-12-07 08:05:21.354  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /IMG_1919.livp
+2022-12-07 08:05:21.356  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /手机备份
+2022-12-07 08:05:21.357  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /手机备份
+2022-12-07 08:05:21.357  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /课本
+2022-12-07 08:05:21.358  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /课本
+2022-12-07 08:05:21.359  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /IMG_0047.JPG
+2022-12-07 08:05:21.360  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /IMG_0047.JPG
+2022-12-07 08:05:21.360  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /好友的分享
+2022-12-07 08:05:21.362  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /好友的分享
+2022-12-07 08:05:21.511  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.DS_Store
+2022-12-07 08:05:21.511  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:21.512  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.DS_Store
+2022-12-07 08:05:21.512  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:21.512  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.DS_Store
+2022-12-07 08:05:21.512  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:21.513  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /._.DS_Store
+2022-12-07 08:05:21.513  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:21.666  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6390483eb1d4dd4c0d234a3d8d12f8b507cd1f9d","expire_sec":14400}, code 200
+2022-12-07 08:05:22.470  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:22.617  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:22.765  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:22.910  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._冰冻星球 第二季 4K
+2022-12-07 08:05:23.052  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._游戏
+2022-12-07 08:05:23.194  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._macbook pro 电脑备份
+2022-12-07 08:05:23.336  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:23.500  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:23.645  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._screenshots
+2022-12-07 08:05:23.787  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_1919.livp
+2022-12-07 08:05:24.016  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:24.197  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._课本
+2022-12-07 08:05:24.435  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:24.593  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_0047.JPG
+2022-12-07 08:05:24.754  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._好友的分享
+2022-12-07 08:05:24.932  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1/Contents
+2022-12-07 08:05:25.081  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"63784217ac896facd7db464c8016be879c45455f","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:25.175  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:25.321  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_1919.livp
+2022-12-07 08:05:25.497  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.663  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:25.828  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_0047.JPG
+2022-12-07 08:05:25.990  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:25.990  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:25.992  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.993  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.996  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.996  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.996  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.997  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:25.997  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:26.158  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"6308d16342708de59cb546d7b8eef403c0b86e91","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:26.161  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.162  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.174  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.174  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.175  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.175  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.175  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.176  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.176  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /.DS_Store
+2022-12-07 08:05:26.180  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.305  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.348  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"63904840c3f3446516fa477a9660881f052c4b62","expire_sec":14400}, code 200
+2022-12-07 08:05:26.482  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.548  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:26.631  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: 
+2022-12-07 08:05:26.631  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: 
+2022-12-07 08:05:26.632  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.631  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/.DS_Store
+2022-12-07 08:05:26.632  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.634  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /.DS_Store
+2022-12-07 08:05:26.634  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.634  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.793  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.793  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.797  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.835  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.836  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.836  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:26.836  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:26.971  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.971  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.972  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.972  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.974  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.974  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.975  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:26.976  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.082  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:27.082  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:27.126  INFO 20710 --- [http-nio-8080-exec-2] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:27.222  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.407  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.577  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:27.721  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.722  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.725  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.725  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.729  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.741  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.741  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.742  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.749  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.753  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.753  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.766  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.768  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.770  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.772  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:27.776  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.777  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:27.914  INFO 20710 --- [http-nio-8080-exec-8] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:28.134  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:28.580  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.725  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.856  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.859  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.859  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.859  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.859  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.860  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.860  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.860  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:28.877  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.878  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.882  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.882  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.883  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.883  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:28.993  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:29.032  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:29.032  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:29.035  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:29.036  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:29.046  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:29.050  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:29.051  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /
+2022-12-07 08:05:29.052  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:29.056  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:29.056  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.DS_Store
+2022-12-07 08:05:29.057  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:29.059  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:29.060  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:29.060  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 4K
+2022-12-07 08:05:29.061  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /冰冻星球 第二季 4K
+2022-12-07 08:05:29.063  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /游戏
+2022-12-07 08:05:29.065  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /游戏
+2022-12-07 08:05:29.066  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /macbook pro 电脑备份
+2022-12-07 08:05:29.067  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /macbook pro 电脑备份
+2022-12-07 08:05:29.074  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:29.077  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:29.077  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /screenshots
+2022-12-07 08:05:29.079  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /screenshots
+2022-12-07 08:05:29.079  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /IMG_1919.livp
+2022-12-07 08:05:29.092  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /IMG_1919.livp
+2022-12-07 08:05:29.094  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /手机备份
+2022-12-07 08:05:29.099  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /手机备份
+2022-12-07 08:05:29.101  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /课本
+2022-12-07 08:05:29.105  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /课本
+2022-12-07 08:05:29.107  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /IMG_0047.JPG
+2022-12-07 08:05:29.120  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /IMG_0047.JPG
+2022-12-07 08:05:29.121  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /好友的分享
+2022-12-07 08:05:29.121  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /好友的分享
+2022-12-07 08:05:29.280  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:29.445  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:29.585  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._冰冻星球 第二季 4K
+2022-12-07 08:05:29.683  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.684  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:29.740  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._游戏
+2022-12-07 08:05:29.823  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:29.924  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._macbook pro 电脑备份
+2022-12-07 08:05:30.101  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.101  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.101  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.101  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.102  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.102  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.102  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.102  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.238  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:30.299  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.359  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:30.586  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.592  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.593  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.593  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.594  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.594  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.594  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.594  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.595  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:30.730  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:30.735  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:30.876  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._screenshots
+2022-12-07 08:05:31.029  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_1919.livp
+2022-12-07 08:05:31.182  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:31.335  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._课本
+2022-12-07 08:05:31.507  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_0047.JPG
+2022-12-07 08:05:31.699  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._好友的分享
+2022-12-07 08:05:31.812  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.814  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.815  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.818  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.819  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.820  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.821  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.822  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:31.875  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:31.877  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1/Contents
+2022-12-07 08:05:32.006  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:32.181  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.182  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:32.234  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.235  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.237  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.237  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.238  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.239  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.239  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.239  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:32.366  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:32.381  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:32.555  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_1919.livp
+2022-12-07 08:05:32.737  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:32.927  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_0047.JPG
+2022-12-07 08:05:33.128  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:33.792  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.792  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.793  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.794  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.794  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.796  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.798  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.798  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:33.947  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:34.138  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:34.269  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.269  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.270  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.270  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.271  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.272  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.272  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.273  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.275  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.410  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:34.440  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:34.440  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:34.441  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.441  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : createResource /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.441  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:34.441  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.store.AliYunDriverClientService  : 开始上传文件，文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4，总大小：0, 文件块数量：0
+2022-12-07 08:05:34.798  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/create_with_proof, body {"check_name_mode":"refuse","content_hash":null,"content_hash_name":"none","drive_id":"772585","name":"._4K60帧IMAX星际穿越.mp4","parent_file_id":"6308d16342708de59cb546d7b8eef403c0b86e91","proof_code":null,"proof_version":"v1","size":0,"part_info_list":[],"type":"file"}, code 201
+2022-12-07 08:05:34.801  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.store.AliYunDriverClientService  : 文件预处理成功，开始上传。文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4，上传URL数量：1
+2022-12-07 08:05:35.257  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : upload https://cn-beijing-data.aliyundrive.net/Bt6OV89Z%2F772585%2F6390494e4ccf4f090693408fa77e23dda1d3309b%2F6390494ea6c6a8e50e14456d9f61155a635d2cc0?partNumber=1&security-token=CAIS%2BgF1q6Ft5B2yfSjIr5WHcszFhI9S%2FLivdUL0nk4Za8VdgZ%2Fx1jz2IHFPeHJrBeAYt%2FoxmW1X5vwSlq5rR4QAXlDfNTP%2BLmjwqVHPWZHInuDox55m4cTXNAr%2BIhr%2F29CoEIedZdjBe%2FCrRknZnytou9XTfimjWFrXWv%2Fgy%2BQQDLItUxK%2FcCBNCfpPOwJms7V6D3bKMuu3OROY6Qi5TmgQ41Uh1jgjtPzkkpfFtkGF1GeXkLFF%2B97DRbG%2FdNRpMZtFVNO44fd7bKKp0lQLukMWr%2Fwq3PIdp2ma447NWQlLnzyCMvvJ9OVDFyN0aKEnH7J%2Bq%2FzxhTPrMnpkSlacGoABssAbcc0%2F9sgpP9TXJeiEP7%2BZkkLZ2zyTm3YzSNmG9kHcFb0Yz5ZldGDCf2jAMJfEw92Gyp4xWrnwB05EEY0X78f5KcGtwjV1lQiyk5BSMIRZ5jaUb2gpQps%2F1knldb%2BmgyhEKBoiZtjEOvlR6zuq8OMjWsxtceVpbS0Fzrg8Bts%3D&uploadId=E017DFDEA10C4BB89FE310EE2AEE6C6D&x-oss-access-key-id=STS.NV29vqiPsKzDwdEzNLgJqnZZ4&x-oss-expires=1670403934&x-oss-signature=%2FfNn4ZtYWIzIHPNqQl9qEKbRdR34F3PoO3t8F5kqinc%3D&x-oss-signature-version=OSS2, code 200
+2022-12-07 08:05:35.258  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.store.AliYunDriverClientService  : 文件正在上传。文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4，当前进度：1/1
+2022-12-07 08:05:35.298  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:35.514  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/complete, body {"drive_id":"772585","file_id":"6390494e4ccf4f090693408fa77e23dda1d3309b","upload_id":"E017DFDEA10C4BB89FE310EE2AEE6C6D"}, code 200
+2022-12-07 08:05:35.514  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.store.AliYunDriverClientService  : 文件上传成功。文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:35.514  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:35.675  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:35.822  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"6308d16342708de59cb546d7b8eef403c0b86e91","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:35.824  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:35.982  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:35.982  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.151  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:36.152  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:36.152  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.153  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.153  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.275  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:36.313  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /recyclebin/trash, body {"drive_id":"772585","file_id":"6390494e4ccf4f090693408fa77e23dda1d3309b"}, code 204
+2022-12-07 08:05:36.314  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.store.AliYunDriverClientService  : 开始上传文件，文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4，总大小：4096, 文件块数量：1
+2022-12-07 08:05:36.326  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.512  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/create_with_proof, body {"check_name_mode":"refuse","content_hash":null,"content_hash_name":"none","drive_id":"772585","name":"._4K60帧IMAX星际穿越.mp4","parent_file_id":"6308d16342708de59cb546d7b8eef403c0b86e91","proof_code":null,"proof_version":"v1","size":4096,"part_info_list":[{"part_number":1,"upload_url":null}],"type":"file"}, code 201
+2022-12-07 08:05:36.513  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.store.AliYunDriverClientService  : 文件预处理成功，开始上传。文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4，上传URL数量：1
+2022-12-07 08:05:36.539  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:36.612  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : upload https://cn-beijing-data.aliyundrive.net/Qbg7pw7R%2F772585%2F63904950def69e929054433f8cd0d53fdadf8316%2F63904950f2ff6262a5444462b3ec74e469146701?partNumber=1&security-token=CAIS%2BgF1q6Ft5B2yfSjIr5aEJez8p6Z2gvCpem7z3W8Mbc1ugrbfuDz2IHFPeHJrBeAYt%2FoxmW1X5vwSlq5rR4QAXlDfNSLsMGbwqVHPWZHInuDox55m4cTXNAr%2BIhr%2F29CoEIedZdjBe%2FCrRknZnytou9XTfimjWFrXWv%2Fgy%2BQQDLItUxK%2FcCBNCfpPOwJms7V6D3bKMuu3OROY6Qi5TmgQ41Uh1jgjtPzkkpfFtkGF1GeXkLFF%2B97DRbG%2FdNRpMZtFVNO44fd7bKKp0lQLukMWr%2Fwq3PIdp2ma447NWQlLnzyCMvvJ9OVDFyN0aKEnH7J%2Bq%2FzxhTPrMnpkSlacGoABKET6HRVdGQM2d65HXY2IUXK5Q2ODxqh616K9uifd6x%2FheqhfB7%2BYdOvPndK8ZwxjqDYcVE8pXeriao7P1YQYvAAEURn4K8LgWWFgFodyL8gjx0ccXIBZ8jGe28BQF2fXx8em3o1a0nP9J3hNWxu2gZClILKBbecAHhte6gGrOF0%3D&uploadId=BBF6C5CD40FA473AB398529F4322C9CC&x-oss-access-key-id=STS.NU1nVHJyW52BxHB9oYaBBmstZ&x-oss-expires=1670403936&x-oss-signature=MfHjRGH0w8IeuTJD2OfJ%2Bx1dMNi9VpBueehN1%2F%2F5S%2FI%3D&x-oss-signature-version=OSS2, code 200
+2022-12-07 08:05:36.613  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.store.AliYunDriverClientService  : 文件正在上传。文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4，当前进度：1/1
+2022-12-07 08:05:36.688  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"6308d16342708de59cb546d7b8eef403c0b86e91","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:36.690  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.691  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.691  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.692  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.692  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.692  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.693  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.888  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:36.912  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/complete, body {"drive_id":"772585","file_id":"63904950def69e929054433f8cd0d53fdadf8316","upload_id":"BBF6C5CD40FA473AB398529F4322C9CC"}, code 200
+2022-12-07 08:05:36.912  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.store.AliYunDriverClientService  : 文件上传成功。文件名：/[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:36.912  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.063  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:37.116  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.219  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"6308d16342708de59cb546d7b8eef403c0b86e91","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:37.221  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.221  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.221  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.222  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.222  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.222  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.222  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.226  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.245  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:37.355  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:37.396  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.396  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.401  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.401  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.401  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.401  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.550  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.551  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.695  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.695  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.696  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.696  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.696  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.696  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.697  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.697  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:37.841  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:38.066  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.066  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.068  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.069  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.069  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.069  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.074  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.076  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.079  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.080  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.082  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.084  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.085  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.086  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.219  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:38.221  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:38.571  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.727  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.727  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.729  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.730  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.730  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.730  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.731  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:38.731  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.732  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.732  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:38.733  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.112  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.114  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.113  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.116  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.118  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.119  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.120  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.121  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.126  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:39.246  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:39.476  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.479  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.489  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.489  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.489  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.489  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.489  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.489  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:39.619  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:40.284  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:40.695  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.695  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.695  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.696  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.696  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.696  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.696  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.696  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:40.823  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:41.068  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.069  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.069  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.069  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.070  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.070  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.070  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.071  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:41.213  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:41.248  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:42.221  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:42.459  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.465  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.462  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.469  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.469  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.473  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.475  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.476  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.477  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.477  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.619  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.621  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.622  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.624  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.626  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.629  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.631  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.632  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.638  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:42.799  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"63904950def69e929054433f8cd0d53fdadf8316","expire_sec":14400}, code 200
+2022-12-07 08:05:42.877  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.878  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.878  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.878  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.879  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.879  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.879  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:42.879  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.011  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:43.039  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.041  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.041  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.041  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.041  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.042  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.042  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.183  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.184  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.186  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:43.191  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.192  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.193  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.194  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.251  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.251  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.256  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.257  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.257  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.258  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.341  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.342  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:43.343  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.343  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.346  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.346  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.347  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.502  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.502  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.503  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.505  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.507  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.508  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.525  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.526  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.528  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.529  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.530  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.531  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.532  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.533  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.669  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:43.677  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.678  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.898  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:43.899  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.034  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:44.143  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:44.961  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.961  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.961  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.961  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.962  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.962  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.962  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.962  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:44.968  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.108  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:45.115  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.115  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.117  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.119  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.120  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.327  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:45.333  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.333  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.335  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.336  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.337  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.337  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.337  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.338  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.341  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.341  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.342  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.342  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.342  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.342  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.342  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.339  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.344  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.344  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.344  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.337  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:45.480  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:45.514  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:45.515  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:45.516  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:45.516  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:45.516  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:45.516  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:46.302  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:46.835  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.835  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.836  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.836  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.836  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.836  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.836  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.836  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:46.967  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"6308d1630fd6d330b59c444995bf54be9066831d","expire_sec":14400}, code 200
+2022-12-07 08:05:47.273  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:48.233  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:49.163  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.163  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.196  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.302  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /.DS_Store
+2022-12-07 08:05:49.303  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.443  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"63904840c3f3446516fa477a9660881f052c4b62","expire_sec":14400}, code 200
+2022-12-07 08:05:49.687  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: 
+2022-12-07 08:05:49.687  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: 
+2022-12-07 08:05:49.687  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.688  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.688  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /.DS_Store
+2022-12-07 08:05:49.688  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.688  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.829  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.829  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.831  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.831  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.832  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.832  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:49.972  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:49.972  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:50.119  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.261  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.401  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:50.551  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.551  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.594  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.595  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.595  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.595  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.596  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.596  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:50.596  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/._4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:50.596  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:50.596  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar/4K60帧IMAX星际穿越.mp4
+2022-12-07 08:05:50.749  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:50.749  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:50.750  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:50.751  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:50.751  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:50.751  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:50.751  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getChildrenNames: /
+2022-12-07 08:05:50.752  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:50.752  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:50.752  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.DS_Store
+2022-12-07 08:05:50.752  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /._.DS_Store
+2022-12-07 08:05:50.752  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:50.752  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:50.753  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 4K
+2022-12-07 08:05:50.753  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /冰冻星球 第二季 4K
+2022-12-07 08:05:50.754  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /游戏
+2022-12-07 08:05:50.754  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /游戏
+2022-12-07 08:05:50.754  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /macbook pro 电脑备份
+2022-12-07 08:05:50.754  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /macbook pro 电脑备份
+2022-12-07 08:05:50.754  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.754  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:50.755  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /screenshots
+2022-12-07 08:05:50.755  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /screenshots
+2022-12-07 08:05:50.755  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /IMG_1919.livp
+2022-12-07 08:05:50.755  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /IMG_1919.livp
+2022-12-07 08:05:50.755  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /手机备份
+2022-12-07 08:05:50.756  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /手机备份
+2022-12-07 08:05:50.756  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /课本
+2022-12-07 08:05:50.756  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /课本
+2022-12-07 08:05:50.757  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /IMG_0047.JPG
+2022-12-07 08:05:50.757  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /IMG_0047.JPG
+2022-12-07 08:05:50.757  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /好友的分享
+2022-12-07 08:05:50.757  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /好友的分享
+2022-12-07 08:05:50.904  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1
+2022-12-07 08:05:51.044  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._冰冻星球 第二季 4K
+2022-12-07 08:05:51.186  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._游戏
+2022-12-07 08:05:51.326  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:51.476  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._macbook pro 电脑备份
+2022-12-07 08:05:51.620  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:51.761  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._screenshots
+2022-12-07 08:05:51.907  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_1919.livp
+2022-12-07 08:05:52.050  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:52.194  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._课本
+2022-12-07 08:05:52.336  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:52.490  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_0047.JPG
+2022-12-07 08:05:52.631  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._好友的分享
+2022-12-07 08:05:52.779  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /冰冻星球 第二季 (2022) 2160p HDR TrueHD.7.1/Contents
+2022-12-07 08:05:52.941  INFO 20710 --- [http-nio-8080-exec-4] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"63784217ac896facd7db464c8016be879c45455f","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
+2022-12-07 08:05:53.175  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:53.313  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._[4K60 帧补帧]-星际穿越-IMAX-Interstellar
+2022-12-07 08:05:53.464  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_1919.livp
+2022-12-07 08:05:53.607  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._手机备份
+2022-12-07 08:05:53.750  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:53.750  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:53.750  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._IMG_0047.JPG
+2022-12-07 08:05:53.897  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:53.897  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:53.898  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:53.898  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:53.898  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:53.898  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:53.898  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceContent: /.DS_Store
+2022-12-07 08:05:53.898  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.053  INFO 20710 --- [http-nio-8080-exec-1] c.g.z.w.client.AliYunDriverClient        : post /file/get_download_url, body {"drive_id":"772585","file_id":"63904840c3f3446516fa477a9660881f052c4b62","expire_sec":14400}, code 200
+2022-12-07 08:05:54.158  INFO 20710 --- [http-nio-8080-exec-6] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /._.
+2022-12-07 08:05:54.271  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: 
+2022-12-07 08:05:54.271  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: 
+2022-12-07 08:05:54.272  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:54.272  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.272  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : setResourceContent /.DS_Store
+2022-12-07 08:05:54.272  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:54.272  INFO 20710 --- [http-nio-8080-exec-7] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.411  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:54.412  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.414  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:54.414  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.414  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:54.414  INFO 20710 --- [http-nio-8080-exec-9] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.560  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /.DS_Store
+2022-12-07 08:05:54.561  INFO 20710 --- [http-nio-8080-exec-3] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /.DS_Store
+2022-12-07 08:05:54.716  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:54.716  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:54.719  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:54.720  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:54.721  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:54.721  INFO 20710 --- [http-nio-8080-exec-10] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:54.734  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:54.734  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:54.735  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:54.735  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:05:54.736  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getStoredObject: /
+2022-12-07 08:05:54.736  INFO 20710 --- [http-nio-8080-exec-5] c.g.z.w.s.AliYunDriverFileSystemStore    : getResourceLength: /
+2022-12-07 08:09:58.996  INFO 20710 --- [scheduling-1] c.g.z.w.client.AliYunDriverClient        : post /file/list, body {"marker":null,"limit":100,"order_by":"updated_at","order_direction":"DESC","drive_id":"772585","all":false,"fields":"*","image_thumbnail_process":"image/resize,w_400/format,jpeg","image_url_process":"image/resize,w_1920/format,jpeg","parent_file_id":"root","video_thumbnail_process":"video/snapshot,t_0,f_jpg,ar_auto,w_300"}, code 200
