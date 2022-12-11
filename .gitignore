@@ -34,3 +34,4 @@ build/
 webdav.log.*
 *.log
 .gitignore
+webdav.log
