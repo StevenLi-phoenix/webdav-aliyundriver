@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class AliYunDriveProperties {
     private String url = "https://api.aliyundrive.com/v2";
     private String authorization = "";
-    private String refreshToken = "762e3d9ba1604a51a40805cb9b05d4f2";
+    private String refreshToken = "87166e193a954aca8b9e80b68fe140bc";
     private String workDir = "/Users/lishuyu/Documents/alidrive_sercret/";
     private String agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36";
     private String driveId;
